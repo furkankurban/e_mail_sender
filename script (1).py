@@ -19,8 +19,8 @@ while True:
 
 print("E-posta ve şifre kontrol ediliyor...")
 
-mail_sunucu = "outgoing.itu.edu.tr"
-mail_port = 587
+mail_sunucu = "..."
+mail_port = ...
 kullanici_adi = gonderici_email.split("@")[0]
 df = pd.read_excel('epostalar.xlsx')
 
